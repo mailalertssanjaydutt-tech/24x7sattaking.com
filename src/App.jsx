@@ -27,9 +27,8 @@ function App() {
         <Route path="/privacy-policy" element={<Privacypolicy />} />
         <Route path="/terms-and-conditions" element={<Termsconditions />} />
         <Route path="/01-100-ki-family" element={<Rashifamily />} />
-        <Route path="/chart-year/:gameSlug" element={<GamePage />} />
-        <Route path="/chart-:year/:gameSlug" element={<GamePage />} />
-        <Route path="/chart-2025/:gameSlug" element={<GamePage  />} />
+             <Route path="/:chartYear/:gameSlug" element={<GamePage />} />
+
       </Routes>
       <Footer/>
     </>
