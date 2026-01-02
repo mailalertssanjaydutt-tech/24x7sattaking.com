@@ -59,7 +59,7 @@ const Footer = () => {
           className="btn btn-warning"
           onClick={() => window.location.reload()}
         >
-          <img src="/images/reload-icon.png" alt="logo img" /> 
+          <img src="/images/reload-icon1.png" alt="logo img" /> 
         </button>
       </div>
         
