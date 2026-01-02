@@ -2626,27 +2626,27 @@ section.somelinks a.yellow-link {
 
 .refButton {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0px;
+    right: 0px;
     /* background: #000; */
     /* color: #fff; */
 }
 
 .refButton button {
-    background: #2948ee !important;
+    /*background: #2948ee !important;
     color: #fff !important;
     font-weight: bold;
     border-radius: 40px;
     font-size: 14px;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 4px;*/
+	background: transparent !important;
+	border: 0;
 }
 
 .refButton .btn > img {
-    max-width: 17px;
-    position: relative;
-    top: -1px;
+
 }
 
 @media (max-width:650px) {
