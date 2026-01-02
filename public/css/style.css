@@ -2643,10 +2643,11 @@ section.somelinks a.yellow-link {
     gap: 4px;*/
 	background: transparent !important;
 	border: 0;
+	outline: none;
 }
 
 .refButton .btn > img {
-
+	max-width: 50px;
 }
 
 @media (max-width:650px) {
