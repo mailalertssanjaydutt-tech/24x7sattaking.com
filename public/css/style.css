@@ -2613,7 +2613,8 @@ section.topboxnew .logo {
 }
 
 section.topboxnew .logo a > img {
-    max-width: 250px;
+    max-width: 300px;
+	margin-bottom: 10px;
 }
 
 .topboxnew .text_slide {
