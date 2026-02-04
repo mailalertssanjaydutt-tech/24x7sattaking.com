@@ -2632,7 +2632,7 @@ section.somelinks a.yellow-link {
     /* color: #fff; */
 }
 
-.refButton button {
+.refButton button ,.refButton a {
     background: #2948ee !important;
     color: #fff !important;
     font-weight: bold;
