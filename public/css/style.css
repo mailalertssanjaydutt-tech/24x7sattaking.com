@@ -2641,8 +2641,12 @@ section.somelinks a.yellow-link {
     display: flex;
     align-items: center;
     gap: 4px;
+    padding: 10px;
+    text-decoration: none;
 }
-
+.refButton a img {
+    max-width: 20px;
+}
 .refButton .btn > img {
     max-width: 17px;
     position: relative;
