@@ -132,7 +132,7 @@ export default function GroupTable({ groupName }) {
                     <tbody key={idx}>
 						
                       <tr>
-                        <td className={YELLOW_BG_GAMES.includes(game.name.toLowerCase().trim()) ? "foryellow" : ""}>
+                        <td className={`foryellow${YELLOW_BG_GAMES.includes(game.name.toLowerCase().trim()) ? " yellow-bg" : ""}`}>
                           <Link
                             className="gamenameeach"
                             to={`/chart-${new Date().getFullYear()}/${game.name

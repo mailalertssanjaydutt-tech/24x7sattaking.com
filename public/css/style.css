@@ -1611,9 +1611,12 @@ a {
 }
 
 .tablebox1 .table .foryellow {
-    background: #dbcf2c;
     color: #000;
 	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
+}
+
+.tablebox1 .table .foryellow.yellow-bg {
+    background: #dbcf2c;
 }
 
 .tablebox1 .table-bordered>tbody>tr>td,.tablebox1 .table-bordered>tbody>tr>th,.tablebox1 .table-bordered>thead>tr>td,.tablebox1 .table-bordered>thead>tr>th {
@@ -1833,10 +1836,13 @@ h4,h6 {
     }
 
     .foryellow {
-        background: #FFC107;
         color: #000;
         font-size: 15px!important;
         vertical-align: middle
+    }
+
+    .foryellow.yellow-bg {
+        background: #FFC107;
     }
 }
 
@@ -2454,6 +2460,10 @@ section.tablebox1-newth .table td.foryellow {
     text-align: left;
     background: #fff;
     border: 0;
+}
+
+section.tablebox1-newth .table td.foryellow.yellow-bg {
+    background: #dbcf2c;
 }
 
 section.tablebox1-newth .table td.foryellow a.gamenameeach {
