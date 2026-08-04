@@ -2,6 +2,16 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import api from "../utils/api";
 
+// Games that should have yellow background
+const YELLOW_BG_GAMES = [
+  "delhi bazaar",
+  "shree ganesh",
+  "faridabad",
+  "ghaziabad",
+  "gali",
+  "disawar",
+];
+
 export default function GroupTable({ groupName }) {
   const [group, setGroup] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -122,7 +132,7 @@ export default function GroupTable({ groupName }) {
                     <tbody key={idx}>
 						
                       <tr>
-                        <td className="foryellow">
+                        <td className={YELLOW_BG_GAMES.includes(game.name.toLowerCase().trim()) ? "foryellow" : ""}>
                           <Link
                             className="gamenameeach"
                             to={`/chart-${new Date().getFullYear()}/${game.name
