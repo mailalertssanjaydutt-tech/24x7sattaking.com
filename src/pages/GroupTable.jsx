@@ -131,7 +131,7 @@ export default function GroupTable({ groupName }) {
                   {group.games.map((game, idx) => (
                     <tbody key={idx}>
 						
-                      <tr>
+                      <tr className={YELLOW_BG_GAMES.includes(game.name.toLowerCase().trim()) ? "yellow-bg-row" : ""}>
                         <td className={`foryellow${YELLOW_BG_GAMES.includes(game.name.toLowerCase().trim()) ? " yellow-bg" : ""}`}>
                           <Link
                             className="gamenameeach"
